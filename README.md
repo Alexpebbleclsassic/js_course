@@ -1,1 +1,1 @@
-js_course
+lesson_10
