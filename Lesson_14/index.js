@@ -13,7 +13,7 @@ function add(first_arg) {
 		}
 	// console.log(sum / first_arg.length);
 	}
-	return sum / first_arg.length;
+	return sum / (first_arg.length / 2);
 }
 
 // add()
@@ -29,7 +29,8 @@ function clearNumbers(mas1_mas2) {
 			mas1_mas2[mas2]
 			// console.log(mas1_mas2);
 			if (typeof mas1_mas2[mas1][mas2] !== "number") {
-						mas1_mas2[mas1].splice(0);
+						mas1_mas2[mas1].splice(mas2, 2);
+						// mas1_mas2[mas2].splice(mas1, 0);
 			}
 		}
 	}
@@ -37,7 +38,7 @@ function clearNumbers(mas1_mas2) {
 	// console.log(mas1_mas2);
 }
 
-// clearNumbers([[130], ["b"], ["a"], ["c"]])
+// clearNumbers([[130, "r", "i"], ["b", 2, 4], ["a", 5, 6], ["c", 7]])
 // let clearNumbers = [[1], ["b"], [2], ["c"]];
 	// for (var mas1 = 0; mas1 < clearNumbers.length; mas1++) {
 // 		clearNumbers[mas1]
