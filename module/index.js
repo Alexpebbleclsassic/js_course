@@ -9,16 +9,16 @@ itsMe("Alexpebbleclassic");
 		//Задача № 2
 	
 function compare(first, second) {
-	if (first > second) {
-			console.log (first + ' > ' + second);
-	} 
-		else if (first < second){
-			console.log(first + ' < ' + second);
-		}
-		else if (first == second) {
-			console.log(first + ' == ' + second);
-		}
-}
+		if (first > second) {
+				console.log(first + ' > ' + second);
+		} 
+			else if (first < second){
+				console.log(first + ' < ' + second);
+			}
+			else if (first == second) {
+				console.log(first + ' == ' + second);
+			}
+	}
 
 compare(4, 3);
 compare(3, 4);
