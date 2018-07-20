@@ -1,1 +1,1 @@
-console.log("Name");
+console.log("Вайло Александр");
